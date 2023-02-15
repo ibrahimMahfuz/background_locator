@@ -51,6 +51,15 @@ class Keys {
         val METHOD_PLUGIN_UPDATE_NOTIFICATION = "LocatorPlugin.updateNotification"
 
         @JvmStatic
+        val ARG_INIT_CALLBACK = "initCallback"
+
+        @JvmStatic
+        val ARG_INIT_DATA_CALLBACK = "initDataCallback"
+
+        @JvmStatic
+        val ARG_DISPOSE_CALLBACK = "disposeCallback"
+
+        @JvmStatic
         val ARG_IS_MOCKED = "is_mocked"
 
         @JvmStatic
@@ -78,19 +87,13 @@ class Keys {
         val ARG_TIME = "time"
 
         @JvmStatic
+        val ARG_PROVIDER = "provider"
+
+        @JvmStatic
         val ARG_CALLBACK = "callback"
 
         @JvmStatic
         val ARG_NOTIFICATION_CALLBACK = "notificationCallback"
-
-        @JvmStatic
-        val ARG_INIT_CALLBACK = "initCallback"
-
-        @JvmStatic
-        val ARG_INIT_DATA_CALLBACK = "initDataCallback"
-
-        @JvmStatic
-        val ARG_DISPOSE_CALLBACK = "disposeCallback"
 
         @JvmStatic
         val ARG_LOCATION = "location"
@@ -134,6 +137,12 @@ class Keys {
 
         @JvmStatic
         val SETTINGS_ANDROID_LOCATION_CLIENT = "settings_android_location_client"
+
+        @JvmStatic
+        val SETTINGS_INIT_PLUGGABLE = "settings_init_pluggable"
+
+        @JvmStatic
+        val SETTINGS_DISPOSABLE_PLUGGABLE = "settings_disposable_pluggable"
 
         @JvmStatic
         val BCM_SEND_LOCATION = "BCM_SEND_LOCATION"
